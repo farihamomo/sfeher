@@ -1,0 +1,4 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+@layer base{body{@apply bg-stone-50 text-stone-900 antialiased font-sans}h1,h2,h3{@apply font-serif tracking-tight}
+:focus-visible{@apply outline-2 outline-offset-2 outline-brand-600}}
+.leaflet-container{font:inherit;z-index:0}
